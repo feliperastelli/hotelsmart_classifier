@@ -1,1 +1,1 @@
-web: gunicorn hotelsmart:hotelsmart
+web: gunicorn app:app
