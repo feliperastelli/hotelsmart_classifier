@@ -6,7 +6,7 @@ from flask import Flask, request, Response
 import os
 from hotelsmart.hotelsmart import PredictReservas
 
-model = pickle.load(open('../models/final_model.pkl', 'rb'))
+model = pickle.load(open('models/final_model.pkl', 'rb'))
 
 app = Flask(__name__)   
 
