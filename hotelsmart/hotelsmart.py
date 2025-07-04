@@ -9,7 +9,7 @@ class PredictReservas(object):
         # columns to be used for prediction: ['lead_time', 'market_segment_type', 'avg_price_per_room', 'no_of_special_requests', 'week_of_year']
 
         self.model = pickle.load(open('models/final_model.pkl', 'rb'))
-        self.market_segment_type_encoder = pickle.load(open('.parameters/label_encoder_market_segment_type.pkl', 'rb'))
+        self.market_segment_type_encoder = pickle.load(open('parameters/label_encoder_market_segment_type.pkl', 'rb'))
         self.avg_price_scaler = pickle.load(open('parameters/scaler_avg_price_per_room.pkl', 'rb'))
         self.no_of_special_requests_scaler = pickle.load(open('parameters/scaler_no_of_special_requests.pkl', 'rb'))
         self.week_of_year_scaler = pickle.load(open('parameters/scaler_week_of_year.pkl', 'rb'))
