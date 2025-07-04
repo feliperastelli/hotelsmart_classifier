@@ -5,6 +5,8 @@
 Os canais de reserva de hotéis online transformaram a forma como os clientes fazem suas reservas. No entanto, isso trouxe um desafio significativo: um número considerável de reservas são canceladas.
 Para a HotelSmart, a alta taxa de cancelamento representa um problema financeiro e operacional. Cada cancelamento tem um **custo médio estimado de R$3.500**. Com uma projeção de **50.000 reservas para o próximo ano**, a perda potencial é substancial.
 
+Dados: https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset
+
 ### Objetivo
 
 Desenvolver um modelo de Machine Learning capaz de **prever com alta acurácia se uma reserva de hotel será cancelada ou não**. 
